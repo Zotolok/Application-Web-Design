@@ -30,7 +30,7 @@ My long-term objective, aside to learn constantly about JS and other useful prog
 # Personal Projects or Contributions
 I have built and upload some personal projects in my GitHub so anyone can take a look on that. For example, in my Frontend folder you can find some projects releated to this field. Nevertheless, I need to organize other projects I haven't upload in here so I can show them to you in the future.
 
-[Front-End](https://github.com/Zotolok/Front-End)
+[Front-End Rep](https://github.com/Zotolok/Front-End)
 
 
 # Contact Information
