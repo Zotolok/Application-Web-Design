@@ -24,6 +24,7 @@ Programming languages (and none), design tools or frameworksI'm familiar with:
 
 # Objectives and Goals
 My short-term objectives in programming are to enhance my CSS and JavaScript skills by building both junior and advanced projects at school and independently. This will help me become a more proficient programmer, increasing my visibility and recognition.
+
 My long-term objective, aside to learn constantly about JS and other useful programming languages, is to be able to contribute in some manner to the world; my knowledge, how I learn and do hard things, to teach the next generations how to become better humans beings and how to share their knowldege and love to others. I think I want to become a teacher and mentor for my friends and future students after I successfully built a good career and uptimized my skills to the top (and beyond).
 
 # Personal Projects or Contributions
@@ -36,5 +37,5 @@ You can contact me by the following manners:
 - LinkedIn - [Celic Gabriel Hernández Archundia](www.linkedin.com/in/celic-gabriel-hernández-archundia-63935a1b5)
 
 
-### I want to end this README file by sharing this quote that best describes my current situation...
+#### I want to end this README file by sharing this quote that best describes my current situation...
 > “Everything is hard before it is easy” ― Goethe J.W.
