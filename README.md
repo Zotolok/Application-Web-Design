@@ -37,5 +37,6 @@ You can contact me by the following manners:
 - LinkedIn - [Celic Gabriel Hernández Archundia](www.linkedin.com/in/celic-gabriel-hernández-archundia-63935a1b5)
 
 
+
 #### I want to end this README file by sharing this quote that best describes my current situation...
 > “Everything is hard before it is easy” ― Goethe J.W.
