@@ -1,24 +1,23 @@
 <?php
 
+use App\Http\Controllers\BookController;
 use Illuminate\Support\Facades\Route;
 
 // 1. Index
-Route::get('/courses/index',[CoursesController::class, 'index']) -> name('courses.index');
-// name('courses.index) es literalmente el nombre que le damos a esta ruta: http://localhost/actividad8_WAD/public/courses/create
-// Solo hacemos alusión a su nombre
+Route::get('/library/index',[BookController::class, 'index']) -> name('book.index');
 
 // 2. Create
-Route::get('/courses/create',[CoursesController::class, 'create']) -> name('courses.create');
+Route::get('/library/create',[BookController::class, 'create']) -> name('book.create');
 
 // 3. Store
-Route::post('/courses/store',[CoursesController::class, 'store']) -> name('courses.store');
+Route::post('/library/store',[BookController::class, 'store']) -> name('book.store');
 
 // 4. Edit
-Route::get('/courses/{id}/edit',[CoursesController::class, 'edit']) -> name('courses.edit');
+//Route::get('/library/{id}/edit',[CoursesController::class, 'edit']) -> name('courses.edit');
 
 // 5. Update
-Route::put('/courses/{id}',[CoursesController::class, 'update']) -> name('courses.update');
+//Route::put('/library/{id}',[CoursesController::class, 'update']) -> name('courses.update');
 
 // 6. Delete
-Route::delete('/courses/{id}', [CoursesController::class, 'destroy']) ->name('courses.destroy');
+//Route::delete('/library/{id}', [CoursesController::class, 'destroy']) ->name('courses.destroy');
 
