@@ -22,6 +22,7 @@
     <label for="">Published Year: </label>
     <input type="text" name="year" id="yearID"><br>
     <br>
-    <input type="submit" value="Add Book">
+    <button type="submit">Add Book</button>
+
 </form>
 @endsection

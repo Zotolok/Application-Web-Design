@@ -9,19 +9,22 @@
 
 @foreach ($books as $book)
 <br>
-    <div><strong>Título:</strong> {{ $book->title }}</div>
-    <div><strong>Author:</strong> {{ $book->author_name }}</div>
-    <div><strong>ISBN:</strong> {{ $book->isbn }}</div>
-    <div><strong>Published Year:</strong> {{ $book->published_year }}</div>
+<div class="libros">
+    <div class="letras"><strong>Título:</strong> {{ $book->title }}</div>
+    <div class="letras"><strong>Author:</strong> {{ $book->author_name }}</div>
+    <div class="letras"><strong>ISBN:</strong> {{ $book->isbn }}</div>
+    <div class="letras"><strong>Published Year:</strong> {{ $book->published_year }}</div>
     <br>
     <a href=" {{ route('book.edit', $book->id) }}">Edit this Book</a>
-<br>
-<form action="{{ route('book.destroy', $book->id) }}" method="post">
-    @csrf
-    @method('DELETE')
-    <br>
-    <button type="submit">Delete Book</button>
-</form>
+
+    <form action="{{ route('book.destroy', $book->id) }}" method="post">
+        @csrf
+        @method('DELETE')
+        <br>
+        <button type="submit">Delete Book</button>
+    </form>
+</div>
+
 @endforeach
 
 

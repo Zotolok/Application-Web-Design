@@ -12,17 +12,17 @@
     @method('PUT')
     <label for=""><Strong><em>Title: </em></Strong></label>
     <input type="text" name="title" id="titleID" value="{{ $book -> title}}"><br>
-
+    <br>
     <label for=""><strong><em>Author: </em></strong></label>
     <input type="text" name="author" id="authorID" value="{{ $book -> author_name}}" ><br>
-
+    <br>
     <label for=""><strong><em>ISBN: </em></strong></label>
     <input type="text" name="isbn" id="isbnID" value="{{ $book -> isbn}}" ><br>
-
+    <br>
     <label for=""><strong><em>Published Year: </em></strong></label>
     <input type="text" name="year" id="yearID" value="{{ $book -> published_year }}" ><br>
     <br>
-    <input type="submit" value="Edit Book">
+    <button type="submit">Edit Book</button>
 </form>
 
 @endsection
