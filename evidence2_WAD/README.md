@@ -11,7 +11,7 @@ Note: If you are not able to enter to the /index page, go to "localhost/evidence
 
 With the previous instructions, you will be able to open this project and test it.
 
-Finally, I'd like to give special thanks to my friends to helping me making this project and solve lots of errors at long way. Also, I'd like to make some references to some pages that helped me solve my issues during the development of this project:
+Finally, I'd like to give special thanks to my friends for helping me making this project and solve lots of errors at long way. Also, I'd like to make some references to some pages that helped me solve my issues during the development of this project:
 
 References:
 - Codigo Informatico. (2022, July 5). Solución al error de MySql (Error: MySQL shutdown unexpectedly) [Video]. YouTube. https://www.youtube.com/watch?v=5cCT1ThLqqU
