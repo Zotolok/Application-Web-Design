@@ -7,7 +7,7 @@ This is my project for Evidence 2. This is just a CRUD project using Laravel sim
 6. Create a new database named "library"
 7. Go to another browser tab and write "localhost/evidence2_WAD/public/index" this place is where you can see, create, update and delete the books from the database.
 
-Note: If you are not able to enter to the /index page, go to "localhost/evidence2_WAD/public/create" and add a book, remember to put number in the published year field
+Note: If you are not able to enter to the /index page, go to "localhost/evidence2_WAD/public/create" and add a book, remember to put just numbers in the published year field
 
 With the previous instructions, you will open this project and test it. Finally
 
