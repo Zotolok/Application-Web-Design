@@ -28,4 +28,27 @@ class BookController extends Controller
         $books = Book::all();
         return view('index', ['books' => $books]); // En esta parte aclaramos que queremos devolver la vista "index" y además queremos pasarle un conjunto de datos con la clave "books". Esto lo atraparemos en nuestro "index.blade.php"
     }
+
+    public function edit($id){
+        $book = Book::find($id); // SELECT * FROM courses WHERE id=6 LIMIT 1;
+        return view('edit',['book' => $book]);
+    }
+
+    public function update(Request $request, $id){
+        $book = Book::find($id);
+
+        $book -> title = $request -> title;
+        $book -> author_name = $request -> author;
+        $book -> isbn = $request -> isbn;
+        $book -> published_year = $request -> year;
+
+        $book -> save();
+        return redirect() -> route('book.index');
+    }
+
+    public function destroy($id){
+        $book = Book::find($id);
+        $book -> delete();
+        return redirect() ->route('book.index');
+    }
 }

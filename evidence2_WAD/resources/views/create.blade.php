@@ -1,5 +1,11 @@
-<h1>View: Create</h1>
 
+<!-- What layout is gonna be used -->
+@extends('layout.layout')
+
+<!-- Just for one line -->
+@section('title', 'Evidence 2 - Create')
+@section('view','Create')
+@section('content')
 <form action="{{ route('book.store') }}" method="post">
     <!-- Inicio del formulario para agregar un curso. Cuando se envíe el formulario, hará una solicitud POST a la URL generada por route ('courses.store') -->
     @csrf
@@ -18,3 +24,4 @@
     <br>
     <input type="submit" value="Add Book">
 </form>
+@endsection

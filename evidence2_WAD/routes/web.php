@@ -13,11 +13,11 @@ Route::get('/library/create',[BookController::class, 'create']) -> name('book.cr
 Route::post('/library/store',[BookController::class, 'store']) -> name('book.store');
 
 // 4. Edit
-//Route::get('/library/{id}/edit',[CoursesController::class, 'edit']) -> name('courses.edit');
+Route::get('/library/{id}/edit',[BookController::class, 'edit']) -> name('book.edit');
 
 // 5. Update
-//Route::put('/library/{id}',[CoursesController::class, 'update']) -> name('courses.update');
+Route::put('/library/{id}',[BookController::class, 'update']) -> name('book.update');
 
 // 6. Delete
-//Route::delete('/library/{id}', [CoursesController::class, 'destroy']) ->name('courses.destroy');
+Route::delete('/library/{id}', [BookController::class, 'destroy']) ->name('book.destroy');
 
