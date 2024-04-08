@@ -9,7 +9,7 @@ This is my project for Evidence 2. This is just a CRUD project using Laravel sim
 
 Note: If you are not able to enter to the /index page, go to "localhost/evidence2_WAD/public/create" and add a book, remember to put just numbers in the published year field
 
-With the previous instructions, you will be able to open this project and test it (you can download the .zip i'll leave in this repository or just download the proper files).
+With the previous instructions, you will be able to open this project and test it (download all the files in "evidence2_WAD" or just the ones you need for make your own testings).
 
 Finally, I'd like to give special thanks to my friends for helping me making this project and solve lots of errors at long way. Also, I'd like to make some references to some pages that helped me solve my issues during the development of this project:
 
