@@ -1,7 +1,7 @@
 This is my project for Evidence 2. This is just a CRUD project using Laravel simulating a book database where you can add, delete, edit and see the books within the database. The steps for using this project are the following:
 1. Have xampp or Laragon installed
 2. Install composer for Laravel
-3. Put the "evidence2_WAD" in the "htdocs" folder within "xampp" folder
+3. Put the "evidence2_WAD" in the "htdocs" folder within "xampp" folder (xampp/htdocs/evidence2_WAD)
 4. Turn Apache and MySQL on in the xampp control panel
 5. Go to a web browser and write "localhost/phpmyadmin" and hopefully you will enter into phpMyAdmin (if that is not the case, you will need to watch some tutorials to solve that issue)
 6. Create a new database named "library"
